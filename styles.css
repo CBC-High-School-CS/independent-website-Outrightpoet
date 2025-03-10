@@ -266,7 +266,7 @@ nav.nav3 a:hover, nav.nav4 a:hover {
     }
 }
 @media (max-width: 700px) {
-    nav.title, nav.nav3 a, nav.nav4 a {
+    nav.title, nav.nav3 a, nav.nav4 a, nav.nav1, nav.nav2, p.title {
         font-size: 50%;
     }
 }
