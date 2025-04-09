@@ -1,0 +1,1 @@
+document.body.style.cursor = "url('cursor.png') 0 0, auto";

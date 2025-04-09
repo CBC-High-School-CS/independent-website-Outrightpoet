@@ -8,7 +8,7 @@
 
 
 /* resets */
-p, h1, h2, header, footer, body {
+p, h1, h2, header, footer, body, nav, article {
     margin: 0;
     border: 0;
     padding: 0;
@@ -120,6 +120,7 @@ div.gallery {
     gap: 10px;
     text-align: center;
 }
+
 div.reviews {
     position: absolute;
     bottom: 10%;
@@ -134,7 +135,7 @@ div.reviews {
 }
 div.review {
     margin: 5px;
-    border: 2px solid black;
+    border: 2px solid #000000;
     width: 200px;
     height: 200px;
     background-color: rgb(202, 202, 202);
@@ -177,7 +178,7 @@ nav.nav2 {
     bottom: 0;
 }
 nav.nav1 a, nav.nav2 a{
-    border: 2px solid black;
+    border: 2px solid #000000;
     font-size: 200%;
     border-color: #a97a1c;
     display: inline-block;
@@ -236,7 +237,7 @@ nav.title p {
     width: 100%;
 }
 nav.nav3 a, nav.nav4 a{
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 300px;
     display: inline-block;
     margin: 1%;
@@ -250,6 +251,12 @@ nav.nav3 a:hover, nav.nav4 a:hover {
     background-color:#B8944D;
 }
 /* footer */
+
+
+/*walkin*/
+div.walkin {
+    z-index: 100;
+}
 
 /* conditions */
 @media (max-width: 1200px) {
